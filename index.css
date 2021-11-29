@@ -6,287 +6,287 @@
 /* **************************** Site General Settings **************************** */
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* **************************** Responsive Font Size **************************** */
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 @media (max-width: 992px) {
-    html {
-        font-size: 60%;
-    }
+  html {
+    font-size: 60%;
+  }
 }
 
 @media (max-width: 768px) {
-    html {
-        font-size: 55%;
-    }
+  html {
+    font-size: 55%;
+  }
 }
 
 /* **************************** Body Settings **************************** */
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: var(--darkblack);
-    font-family: var(--mainfont);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--darkblack);
+  font-family: var(--mainfont);
 
-    border-top: 2rem solid var(--primaryred);
-    border-right: 2rem solid var(--primaryblue);
-    border-left: 2rem solid var(--primaryyellow);
-    border-bottom: 2rem solid var(--primarygreen);
+  border-top: 2rem solid var(--primaryred);
+  border-right: 2rem solid var(--primaryblue);
+  border-left: 2rem solid var(--primaryyellow);
+  border-bottom: 2rem solid var(--primarygreen);
 }
 
 /* **************************** Root Variables **************************** */
 
 :root {
-    /* Default Colors */
-    --darkblack: #181a20;
-    --lightblack: #1f222b;
-    --darkwhite: #ffffff;
-    --darkgrey: #262a34;
-    --lightgrey: #3a3f50;
-    --offgrey: #d3e0ea;
+  /* Default Colors */
+  --darkblack: #181a20;
+  --lightblack: #1f222b;
+  --darkwhite: #ffffff;
+  --darkgrey: #262a34;
+  --lightgrey: #3a3f50;
+  --offgrey: #d3e0ea;
 
-    /* Theme Colors */
-    --primaryred: #f74037;
-    --primaryblue: #1e90ff;
-    --primarygreen: #14b25f;
-    --primaryyellow: #ffcc1d;
+  /* Theme Colors */
+  --primaryred: #f74037;
+  --primaryblue: #1e90ff;
+  --primarygreen: #14b25f;
+  --primaryyellow: #ffcc1d;
 
-    /* Default Fonts */
-    --mainfont: "Montserrat", sans-serif;
-    --textfont: "Outfit", sans-serif;
+  /* Default Fonts */
+  --mainfont: "Montserrat", sans-serif;
+  --textfont: "Outfit", sans-serif;
 }
 
 /* **************************** Scroll Bar **************************** */
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 
-    width: 8px;
-    height: 8px;
-    background: transparent;
+  width: 8px;
+  height: 8px;
+  background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-    background: var(--lightblack);
-    border-radius: 2px;
+  background: var(--lightblack);
+  border-radius: 2px;
 }
 
 /* **************************** Selection **************************** */
 
 ::selection {
-    color: var(--darkwhite);
-    background: var(--lightgrey);
+  color: var(--darkwhite);
+  background: var(--lightgrey);
 }
 
 /* **************************** Main Styles **************************** */
 
 section#linktree {
-    position: relative;
-    margin: 4rem;
-    padding: 4rem;
-    width: 95%;
-    height: 90%;
-    /* background: var(--lightblack); */
-    background: rgba(31, 34, 43, 0.9);
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+  position: relative;
+  margin: 4rem;
+  padding: 4rem;
+  width: 95%;
+  height: 90%;
+  /* background: var(--lightblack); */
+  background: rgba(31, 34, 43, 0.9);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 div.linktree {
-    position: relative;
-    margin: auto;
-    padding: 2rem 4rem;
+  position: relative;
+  margin: auto;
+  padding: 2rem 4rem;
 }
 
 div#particles-js {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 /* **************************** Lintree Heading **************************** */
 
 div.linktree .heading {
-    margin: 4rem auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  margin: 4rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 div.linktree .heading img {
-    margin: auto;
-    width: 12rem;
-    height: auto;
+  margin: auto;
+  width: 12rem;
+  height: auto;
 }
 
 div.linktree .heading h2 {
-    margin: 1rem auto 0.5rem;
-    font-size: 4rem;
-    font-weight: 700;
-    font-family: var(--mainfont);
-    color: var(--darkwhite);
-    text-align: center;
-    letter-spacing: 2px;
+  margin: 1rem auto 0.5rem;
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: var(--mainfont);
+  color: var(--darkwhite);
+  text-align: center;
+  letter-spacing: 2px;
 }
 
 div.linktree .heading p {
-    margin: 0.5rem auto;
-    font-size: 2.5rem;
-    font-weight: 400;
-    font-family: var(--textfont);
-    color: var(--offgrey);
-    text-align: center;
-    letter-spacing: 0.5px;
+  margin: 0.5rem auto;
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-family: var(--textfont);
+  color: var(--offgrey);
+  text-align: center;
+  letter-spacing: 0.5px;
 }
 
 /* **************************** Lintree Handles **************************** */
 
 div.linktree .handles {
-    margin: 2rem auto;
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem 4rem;
-    place-items: center;
-    place-content: center;
+  margin: 2rem auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem 4rem;
+  place-items: center;
+  place-content: center;
 }
 
 div.linktree .handles .handle_card {
-    position: relative;
-    margin: 1rem 2rem;
-    padding: 2rem 0;
-    width: 100%;
-    height: -webkit-fill-available;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: var(--darkgrey);
-    border-radius: 8px;
-    z-index: 1;
-    overflow: hidden;
-    border-top: 4px solid var(--primaryred);
-    border-right: 4px solid var(--primaryblue);
-    border-left: 4px solid var(--primaryyellow);
-    border-bottom: 4px solid var(--primarygreen);
+  position: relative;
+  margin: 1rem 2rem;
+  padding: 2rem 0;
+  width: 100%;
+  height: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--darkgrey);
+  border-radius: 8px;
+  z-index: 1;
+  overflow: hidden;
+  border-top: 4px solid var(--primaryred);
+  border-right: 4px solid var(--primaryblue);
+  border-left: 4px solid var(--primaryyellow);
+  border-bottom: 4px solid var(--primarygreen);
 }
 
 div.linktree .handles .handle_card span img.watermark {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 20rem;
-    height: auto;
-    opacity: 0.1;
-    transform: translate(-50%, -50%) scale(1);
-    z-index: -1;
-    filter: invert(1);
-    transition: all 0.35s linear;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20rem;
+  height: auto;
+  opacity: 0.1;
+  transform: translate(-50%, -50%) scale(1);
+  z-index: -1;
+  filter: invert(1);
+  transition: all 0.35s linear;
 }
 
 div.linktree .handles .handle_card:hover span img.watermark {
-    transform: translate(-50%, -50%) scale(1.2);
+  transform: translate(-50%, -50%) scale(1.2);
 }
 
 div.linktree .handles .handle_card img {
-    margin: 0.5rem auto;
-    width: 5rem;
-    height: auto;
+  margin: 0.5rem auto;
+  width: 5rem;
+  height: auto;
 }
 
 div.linktree .handles .handle_card p {
-    margin: 1rem auto;
-    font-size: 2.2rem;
-    font-weight: 400;
-    font-family: var(--textfont);
-    color: var(--offgrey);
-    text-align: center;
-    letter-spacing: 0.5px;
+  margin: 1rem auto;
+  font-size: 2.2rem;
+  font-weight: 400;
+  font-family: var(--textfont);
+  color: var(--offgrey);
+  text-align: center;
+  letter-spacing: 0.5px;
 }
 
 div.linktree .handles .handle_card a {
-    margin: 1rem auto;
-    padding: 0.6rem 1.8rem;
-    font-size: 2rem;
-    font-weight: 600;
-    font-family: var(--textfont);
-    color: var(--lightgrey);
-    background: var(--darkwhite);
-    border-radius: 6px;
-    text-align: center;
-    letter-spacing: 0.5px;
-    text-decoration: none;
-    user-select: none;
-    transition: all 0.3s linear;
-    border-top: 4px solid var(--primaryred);
-    border-right: 4px solid var(--primaryblue);
-    border-left: 4px solid var(--primaryyellow);
-    border-bottom: 4px solid var(--primarygreen);
+  margin: 1rem auto;
+  padding: 0.6rem 1.8rem;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: var(--textfont);
+  color: var(--lightgrey);
+  background: var(--darkwhite);
+  border-radius: 6px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  user-select: none;
+  transition: all 0.3s linear;
+  border-top: 4px solid var(--primaryred);
+  border-right: 4px solid var(--primaryblue);
+  border-left: 4px solid var(--primaryyellow);
+  border-bottom: 4px solid var(--primarygreen);
 }
 
 div.linktree .handles .handle_card a:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 /* **************************** Responsive Medias **************************** */
 
 @media (max-width: 992px) {
-    div.linktree {
-        padding: 2rem 0;
-    }
+  div.linktree {
+    padding: 2rem 0;
+  }
 
-    div.linktree .heading {
-        margin: 2rem auto 4rem;
-    }
+  div.linktree .heading {
+    margin: 2rem auto 4rem;
+  }
 
-    div.linktree .handles {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  div.linktree .handles {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
-    div.linktree .handles {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  div.linktree .handles {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-    div.linktree .handles .handle_card {
-        padding: 2rem 1rem;
-    }
+  div.linktree .handles .handle_card {
+    padding: 2rem 1rem;
+  }
 }
 
 @media (max-width: 472px) {
-    section#linktree {
-        margin: 2rem;
-    }
+  section#linktree {
+    margin: 2rem;
+  }
 
-    div.linktree .handles .handle_card img {
-        width: 4rem;
-    }
+  div.linktree .handles .handle_card img {
+    width: 4rem;
+  }
 
-    div.linktree .handles .handle_card a {
-        padding: 0.5rem 1.7rem;
-    }
+  div.linktree .handles .handle_card a {
+    padding: 0.5rem 1.7rem;
+  }
 }
 
 @media (max-width: 372px) {
-    div.linktree .heading img {
-        width: 10rem;
-    }
-    div.linktree .heading h2 {
-        font-size: 3.5rem;
-    }
+  div.linktree .heading img {
+    width: 10rem;
+  }
+  div.linktree .heading h2 {
+    font-size: 3.5rem;
+  }
 }
 
 /* **************************** Styles End **************************** */
