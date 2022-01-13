@@ -52,6 +52,22 @@ let linktreeData = [
   },
   {
     id: 7,
+    handleName: "Twitter",
+    handleText: "Follow us on Twitter",
+    handleLink: "https://twitter.com/gdscjgec",
+    imgSrc: "./assets/twitter.svg",
+    imgAlt: "Facebook",
+  },
+  {
+    id: 8,
+    handleName: "Facebook",
+    handleText: "Like our page on Facebook",
+    handleLink: "https://www.facebook.com/gdscjgec",
+    imgSrc: "./assets/facebook.svg",
+    imgAlt: "Facebook",
+  },
+  {
+    id: 9,
     handleName: "Website",
     handleText: "Official Website",
     handleLink: "https://gdscjgec.github.io/",
@@ -59,7 +75,7 @@ let linktreeData = [
     imgAlt: "Website",
   },
   {
-    id: 8,
+    id: 10,
     handleName: "Mail Us",
     handleText: "Feel Free to Contact Us",
     handleLink: "mailto:gdsc@jgec.ac.in",

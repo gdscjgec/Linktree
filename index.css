@@ -52,7 +52,7 @@ body {
   --darkwhite: #ffffff;
   --darkgrey: #262a34;
   --lightgrey: #3a3f50;
-  --offgrey: #d3e0ea;
+  --offgrey: #edeef7;
 
   /* Theme Colors */
   --primaryred: #f74037;
@@ -177,10 +177,10 @@ div.linktree .handles .handle_card {
   border-radius: 8px;
   z-index: 1;
   overflow: hidden;
-  border-top: 4px solid var(--primaryred);
-  border-right: 4px solid var(--primaryblue);
-  border-left: 4px solid var(--primaryyellow);
-  border-bottom: 4px solid var(--primarygreen);
+  border-top: 6px solid var(--primaryred);
+  border-right: 6px solid var(--primaryblue);
+  border-left: 6px solid var(--primaryyellow);
+  border-bottom: 6px solid var(--primarygreen);
 }
 
 div.linktree .handles .handle_card span img.watermark {

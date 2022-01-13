@@ -9,6 +9,8 @@ Connect with us in one place.
 | [Youtube](https://www.youtube.com/c/gdscjgec)
 | [Instagram](https://www.instagram.com/gdscjgec/)
 | [Github](https://github.com/gdscjgec)
+| [Twitter](https://twitter.com/gdscjgec)
+| [Facebook](https://www.facebook.com/gdscjgec)
 | [Website](https://gdscjgec.github.io/)
 | [Mail Us](mailto:gdsc@jgec.ac.in)
 |
