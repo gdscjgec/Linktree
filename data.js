@@ -14,7 +14,7 @@ let linktreeData = [
     id: 2,
     handleName: "Discord",
     handleText: "Join Our Community",
-    handleLink: "https://discord.gg/MxX4ZhPxKa",
+    handleLink: "https://discord.gg/NHDRVveY",
     imgSrc: "./assets/discord.svg",
     imgAlt: "Discord",
   },
