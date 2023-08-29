@@ -4,7 +4,7 @@ All GDSC JGEC Social Handles together, Our Linktree.
 Connect with us in one place.
 
 | [Chapter](https://gdsc.community.dev/jalpaiguri-government-engineering-college-jalpaiguri/)
-| [Discord](https://discord.gg/MxX4ZhPxKa)
+| [Discord](https://discord.gg/NHDRVveY)
 | [LinkedIn](https://www.linkedin.com/company/gdscjgec)
 | [Youtube](https://www.youtube.com/c/gdscjgec)
 | [Instagram](https://www.instagram.com/gdscjgec/)
